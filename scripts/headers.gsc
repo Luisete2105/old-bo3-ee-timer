@@ -14,7 +14,7 @@
 #include scripts\zm\_zm_utility;
 #include scripts\shared\ai\zombie_utility;
 #include scripts\zm\_zm_powerup_weapon_minigun;
-
+#include scripts\zm\_zm_bgb;
 
 #namespace ee_timer;
 
