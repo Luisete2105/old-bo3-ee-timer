@@ -196,7 +196,8 @@ detour zm_cosmodrome_eggs<scripts\zm\zm_cosmodrome_eggs.gsc>::wait_for_combo(tri
 		}
 	#/
 	players = getplayers();
-	array::thread_all(players, zm_cosmodrome_eggs::thundergun_check, self, trig, weapon_combo_spot);
+	//array::thread_all(players, zm_cosmodrome_eggs::thundergun_check, self, trig, weapon_combo_spot);
+	array::thread_all(players, @zm_cosmodrome_eggs<scripts\zm\zm_cosmodrome_eggs.gsc>::thundergun_check, self, trig, weapon_combo_spot);
 	while(true)
 	{
 		trig waittill("damage", amount, inflictor, direction, point, type, tagname, modelname, partname, weapon);
