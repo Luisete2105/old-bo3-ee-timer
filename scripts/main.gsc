@@ -17,7 +17,6 @@ function init()
 
     // A few enhacements for the game
     level thread improve_render();
-
 }
 
 function on_player_connect()
