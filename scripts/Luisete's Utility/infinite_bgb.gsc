@@ -1,3 +1,4 @@
+// Add on gameplay start
 function free_megas(){
 
     while( level.bgb.size < 63 ) wait 0.05;
@@ -12,6 +13,7 @@ function return_false(){
     return false;
 }
 
+// Add on player connect
 function delete_bgb_uses(){
 
     while( self.bgb_pack.size < 5 ) wait 0.05;
